@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <div class="phrases">
+        <div class="container">
+          <div class="phrase-container" id="phrase-container-1">
+            this weeken, i am going to
+            <span class="drop-target" data-target="visit">_____________</span>
+            washinton,Dc
+          </div>
+          <div class="phrase-container" id="phrase-container-2">
+            it's the capital of the
+            <span class="drop-target" data-target="unitedstates"
+              >_____________</span
+            >!
+          </div>
+          <div class="phrase-container" id="phrase-container-3">
+            I am
+            <span class="drop-target" data-target="goingto">_____________</span>
+            visit the white House
+          </div>
+          <div class="phrase-container" id="phrase-container-4">
+            which is the
+            <span class="drop-target" data-target="president"
+              >_____________</span
+            >
+            house
+          </div>
+        </div>
+      </div>
+      <div class="words">
+        <div class="word" draggable="true" data-word="visit">visit</div>
+        <div class="word" draggable="true" data-word="unitedstates">
+          united states
+        </div>
+        <div class="word" draggable="true" data-word="goingto">going to</div>
+        <div class="word" draggable="true" data-word="president">
+          president's
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
